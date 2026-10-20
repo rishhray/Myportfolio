@@ -205,7 +205,7 @@ function Index() {
           <ol className="relative ml-3 max-w-3xl border-l border-border">
             {journey.map((j, i) => (
               <li key={i} className="mb-12 pl-8">
-                <Reveal>
+                <Reveal className="relative">
                   <span className="bg-gradient-accent glow absolute -left-[39px] top-1.5 h-3.5 w-3.5 rounded-full" />
                   <p className="eyebrow">{j.year}</p>
                   <h3 className="mt-2 text-xl font-semibold">{j.title}</h3>
