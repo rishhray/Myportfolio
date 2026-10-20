@@ -206,7 +206,7 @@ function Index() {
             {journey.map((j, i) => (
               <li key={i} className="mb-12 pl-8">
                 <Reveal>
-                  <span className="bg-gradient-accent glow absolute -left-[7px] mt-1.5 h-3.5 w-3.5 rounded-full" />
+                  <span className="bg-gradient-accent glow absolute -left-[39px] top-1.5 h-3.5 w-3.5 rounded-full" />
                   <p className="eyebrow">{j.year}</p>
                   <h3 className="mt-2 text-xl font-semibold">{j.title}</h3>
                   <p className="mt-2 text-muted-foreground">{j.text}</p>
